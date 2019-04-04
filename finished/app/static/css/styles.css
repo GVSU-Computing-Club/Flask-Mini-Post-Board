@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 62.5%;
+    margin: 2rem 3rem;
+    background-color: #333333;
+    color: white;
+}
+
+.board-title {
+    font-size: 4rem;
+    text-align: center;
+    color: orangered;
+}
+
+.post {
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.post-container {
+    border: 1px solid white;
+}
+
+.post-container > div:nth-of-type(odd) {
+    background-color: #555555;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.author {
+    color: yellow;
+}
+
+.time {
+    font-style: italic;
+}
+
+.message {
+    color: lightblue;
+    font-size: 1.2rem;
+}
+
+.submit-container {
+    font-size: 1rem;
+    margin: 2rem 0;
+}
+
+.submit-header {
+    font-size: 1.5rem;
+}
+
+.submit-btn {
+    margin: 1rem 0;
+    background-color: orange;
+    border: none;
+    padding: 0.5rem;
+}
+
+
+.submit-btn:hover {
+    background-color: yellow;
+}
